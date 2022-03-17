@@ -32,8 +32,8 @@ namespace Torres_de_Hanoi
         public Disco pop()
         {
             //elementos.count -1 es porque el elemento en elementos.count no existe
-            Disco disco = Elementos[Elementos.Count - 1];
-            Elementos.RemoveAt(Elementos.Count - 1);
+            Disco disco = Elementos[Top];
+            Elementos.RemoveAt(Top);
             return disco;
         }                
 

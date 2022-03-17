@@ -8,7 +8,7 @@ namespace Torres_de_Hanoi
 {
     class Hanoi
     {
-        private int movimientos = 0;
+        private int movimientos;
         private int discos;
         /*TODO: Implementar métodos*/
         public void mover_disco(Pila a, Pila b)
@@ -38,6 +38,7 @@ namespace Torres_de_Hanoi
 
         public int iterativo(int n, Pila ini, Pila fin, Pila aux)
         {
+            movimientos = 0;
             discos = n;
             bool solucion = false;
             if(n%2 != 0)
@@ -84,6 +85,26 @@ namespace Torres_de_Hanoi
                 mover_disco(a, b);
                 movimientos++;
             }
+        }
+        public int recursivo(int n, Pila ini, Pila fin, Pila aux, bool flag)
+        {
+            if (flag)
+            {
+                discos = n;
+                movimientos = 0;
+                flag = false;
+            }
+            if (n == 1)
+            {
+                incrementar_movimientos(ini, fin, fin);
+            }
+            else
+            {
+                recursivo(n-1, ini, aux, fin, false);
+                incrementar_movimientos(ini, fin, fin);
+                recursivo(n-1, aux, fin, ini, false);
+            }
+            return movimientos;
         }
 
     }
