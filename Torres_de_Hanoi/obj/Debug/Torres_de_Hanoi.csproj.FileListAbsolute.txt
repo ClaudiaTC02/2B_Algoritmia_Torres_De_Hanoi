@@ -2,7 +2,6 @@ C:\Users\audin\Desktop\2ºGTI\Algoritmia y matemática para juegos\Torres_de_Han
 C:\Users\audin\Desktop\2ºGTI\Algoritmia y matemática para juegos\Torres_de_Hanoi\bin\Debug\Torres_de_Hanoi.exe
 C:\Users\audin\Desktop\2ºGTI\Algoritmia y matemática para juegos\Torres_de_Hanoi\bin\Debug\Torres_de_Hanoi.pdb
 C:\Users\audin\Desktop\2ºGTI\Algoritmia y matemática para juegos\Torres_de_Hanoi\obj\Debug\Torres_de_Hanoi.csproj.AssemblyReference.cache
-C:\Users\audin\Desktop\2ºGTI\Algoritmia y matemática para juegos\Torres_de_Hanoi\obj\Debug\Torres_de_Hanoi.csproj.SuggestedBindingRedirects.cache
 C:\Users\audin\Desktop\2ºGTI\Algoritmia y matemática para juegos\Torres_de_Hanoi\obj\Debug\Torres_de_Hanoi.csproj.CoreCompileInputs.cache
 C:\Users\audin\Desktop\2ºGTI\Algoritmia y matemática para juegos\Torres_de_Hanoi\obj\Debug\Torres_de_Hanoi.exe
 C:\Users\audin\Desktop\2ºGTI\Algoritmia y matemática para juegos\Torres_de_Hanoi\obj\Debug\Torres_de_Hanoi.pdb
